@@ -1,0 +1,82 @@
+.edit-creator-container {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.edit-creator-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.edit-creator-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.edit-creator-form input,
+.edit-creator-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.edit-creator-form textarea {
+    resize: vertical;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.submit-edit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.submit-edit-button:hover {
+    background-color: #45a049;
+}
+
+#delete-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#delete-button:hover {
+    background-color: #e53935;
+}
+
+/* Add margin-top to adjust spacing for the card */
+.creators-cards {
+    margin-top: 30px; /* Adjust this value as needed */
+}
+
+.description-help {
+    font-size: 0.6rem; 
+    font-style: italic; 
+    color: #666666; 
+    margin-top: 5px; 
+    display: block; 
+}
+
+.social-media-label {
+    font-weight: 700; 
+    color: #00bfff; 
+    font-size: 1rem; 
+    display: block; 
+}

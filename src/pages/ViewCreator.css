@@ -1,0 +1,119 @@
+.view-creator-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex; /* Flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Add space between image and text */
+}
+
+.creator-image {
+    border-radius: 10px;
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    object-fit: cover;
+}
+
+.creator-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%; /* Take the full width of the remaining space */
+}
+
+.creator-name {
+    margin: 0;
+    font-size: 1.8rem; /* Adjust font size */
+    font-weight: bold;
+    text-align: left; /* Align text to the left */
+}
+
+.creator-description {
+    margin: 10px 0;
+    text-align: left; /* Align text to the left */
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    border-radius: 5px;
+    padding: 1px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #f0f0f0;
+}
+
+.youtube {
+    color: #FF0000; /* YouTube color */
+}
+
+.instagram {
+    color: #C13584; /* Instagram color */
+}
+
+.twitter {
+    color: #1DA1F2; /* Twitter color */
+}
+
+.separator {
+    margin: 15px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row; /* Align children vertically */
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px;
+}
+
+.edit-button,
+.delete-button {
+    width: 100%; /* Make buttons full-width within container */
+}
+.edit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+}
+
+.delete-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #e53935;
+}
